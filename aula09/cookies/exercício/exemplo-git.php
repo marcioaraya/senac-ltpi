@@ -8,5 +8,7 @@
 </head>
 <body>
     <h1>Exemplo uso git</h1>
+
+    <p>acrescentei um parágrafo</h1>
 </body>
 </html>
