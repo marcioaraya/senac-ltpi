@@ -1,0 +1,79 @@
+=           =
+C ookie   - C omputador do usuário
+=           =
+
+
+----------------------------------------------------------------
+
+=            =
+S essão    - S ervidor
+=            =
+
+-----------------------------------------------------------------
+
+
+            Cookie                         Sessão
+criar       setcookie("nome", valor)       session_start() // no início do programa - primeira coisa
+                                           $_SESSION["nome"] = valor;
+										   
+									
+recuperar   $_COOKIE["nome"]               session_start() // no início do programa - primeira coisa
+                                           $_SESSION["nome"]
+
+-----------------------------------------------------------------
+
+
+Exercício:
+
+Modificar os programas para, além de informar o nome e a idade,
+informar também a cor preferida.
+
+Acrescentar botões de rádio para o usuário escolher a cor preferida  (pelo menos duas opções),
+no atributo "value" colocar o nome da cor.
+-
+Crie uma folha de estilo que altere o background-color das páginas com a cor preferida
+
+Altere inclusive a página do formulário.
+-
+De acordo com a cor escolhida, salve um cookie ou variável de sessão para lembrar a opção do usuário
+-
+nos programas que recuperam a informação dos cookies/variáveis de sessão, acrescente a tag <style> 
+para carregar o estilo de acordo com a opção salva pelo usuário.
+
+
+exemplos de arquivos de estilos:
+
+azul.css
+body {background-color:blue}
+
+amarelo.css
+body {background-color:yellow}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
